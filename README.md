@@ -10,9 +10,7 @@ This project aims to develop a robust control scheme to enable a quadrotor, spec
 
 
 # Crazyflie 2.0 Overview
-The Crazyflie 2.0 is a micro air vehicle (MAV) quadrotor weighing only 27 grams. It is equipped with four 7mm coreless DC motors, providing a maximum takeoff weight of 42g. The quadrotor's physical parameters are listed below:
-
-![image](https://github.com/ankushsingh999/Robust-Traj-Control-for-UAVs/assets/64325043/b071ffd7-3ff3-4097-9170-b6ba69259702)
+The Crazyflie 2.0 is a micro air vehicle (MAV) quadrotor weighing only 27 grams. It is equipped with four 7mm coreless DC motors, providing a maximum takeoff weight of 42g. 
 
 # Dynamic Model and Control Design
 The quadrotor dynamic model is described by the equations of motion, considering the translational and angular coordinates. The control inputs on the system are the force and moments applied by the propellers. A sliding mode control approach is used to track desired trajectories for altitude and attitude control.
